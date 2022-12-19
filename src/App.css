@@ -1,0 +1,56 @@
+
+body {
+  text-align: center;
+  position: relative;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  max-width: 260px;
+  border: 20px solid #111111;
+  background-color: #111111;
+  border-radius: 10px;
+}
+.keypad {
+  display: flex;
+  flex-wrap: wrap;
+}
+.keypad button {
+  width: 25%;
+  height: 55px;
+  outline: 0;
+  background-color: #1f1e1e;
+  border: 5px solid #111;
+  color: #fff;
+  cursor: pointer; 
+  font-size: 20px;
+}
+.keypad button:hover {
+  background-color: #000;
+}
+
+input.result {
+  border: 0;
+  outline: 0;
+  height: 55px;
+  max-width: 260px;
+  color: #fff;
+  font-size: 26px;
+  text-align: right;
+  background-color: #111111;
+}
+#clear, #result {
+  width: 50%;
+}
+
+.blueColor {
+background-color:rgb(253 166 21)!important;
+border: 5px solid #111;
+}
+
+.blueColor:hover {
+background-color: rgb(230, 143, 4)!important;
+border: 5px solid #111;
+}
